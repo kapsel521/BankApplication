@@ -1,8 +1,8 @@
 package com.company;
 
 public class Savings extends Account{
-    int safetyDepositBoxID;
-    int safetyDepositBoxPin;
+    private int safetyDepositBoxID;
+    private int safetyDepositBoxPin;
 
     public Savings(String name, String sSN, double initDeposit){
         super(name, sSN, initDeposit);
